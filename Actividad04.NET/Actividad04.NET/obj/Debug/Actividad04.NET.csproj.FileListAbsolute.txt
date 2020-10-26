@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\bin\Debug\Actividad04.NET.exe.config
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\bin\Debug\Actividad04.NET.exe
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\bin\Debug\Actividad04.NET.pdb
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.Properties.Resources.resources
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.exe
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.pdb
+C:\Users\User\source\repos\Actividad04.NET\Actividad04.NET\obj\Debug\Actividad04.NET.frmActividad04.resources

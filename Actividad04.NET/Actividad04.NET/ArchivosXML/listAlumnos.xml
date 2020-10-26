@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <alumno>
+    <codigo>1</codigo>
+    <nombre>Leidy Esquivel Garcia</nombre>
+    <correo>lesquivel52@hotmail.com</correo>
+    <nota1>2</nota1>
+    <nota2>3</nota2>
+    <nota3>35</nota3>
+    <nota4>4</nota4>
+    <notaFinal>11</notaFinal>
+    <notaConcepto>Aprobado</notaConcepto>
+  </alumno>
+  <alumno>
+    <codigo>2</codigo>
+    <nombre>Javier Andres Palomino</nombre>
+    <correo>jpalomino@yahoo.es</correo>
+    <nota1>3</nota1>
+    <nota2>5</nota2>
+    <nota3>1</nota3>
+    <nota4>4</nota4>
+    <notaFinal>3.25</notaFinal>
+    <notaConcepto>Reprobado</notaConcepto>
+  </alumno>
+</ArrayOfAlumno>
