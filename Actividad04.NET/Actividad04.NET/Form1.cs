@@ -382,6 +382,7 @@ namespace Actividad04.NET
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.Text = "Formulario de registro";
             cargarXml(directorio);
 
             // Si la lista esta vacia entonces que me desactive los botones
@@ -453,16 +454,19 @@ namespace Actividad04.NET
         private void txtCodigo_Click(object sender, EventArgs e)
         {
             textName = txtCodigo.Name;
+            txtCodigo.SelectAll();
         }
 
         private void txtNombre_Click(object sender, EventArgs e)
         {
             textName = txtNombre.Name;
+            txtNombre.SelectAll();
         }
 
         private void txtCorreo_Click(object sender, EventArgs e)
         {
             textName = txtCorreo.Name;
+            txtCorreo.SelectAll();
         }
 
         private void txtCodigo_KeyPress(object sender, KeyPressEventArgs e)
@@ -503,6 +507,21 @@ namespace Actividad04.NET
                                             errorValidacion.SetError(txtNota2, "La nota debe estar entre 0 y 5");
                                     else
                                         errorValidacion.SetError(txtNota1, "La nota debe estar entre 0 y 5");
+        }
+
+        private void txtCorreo_MouseDown(object sender, MouseEventArgs e)
+        {
+            textName = txtCorreo.Name;
+        }
+
+        private void txtNombre_MouseDown(object sender, MouseEventArgs e)
+        {
+            textName = txtNombre.Name;
+        }
+
+        private void txtCodigo_MouseDown(object sender, MouseEventArgs e)
+        {
+            textName = txtCodigo.Name;
         }
     }
 }

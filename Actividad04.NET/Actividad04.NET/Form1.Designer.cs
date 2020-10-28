@@ -227,6 +227,7 @@
             this.txtNota4.Name = "txtNota4";
             this.txtNota4.Size = new System.Drawing.Size(100, 26);
             this.txtNota4.TabIndex = 7;
+            this.txtNota4.TabStop = false;
             // 
             // label7
             // 
@@ -245,6 +246,7 @@
             this.txtNota3.Name = "txtNota3";
             this.txtNota3.Size = new System.Drawing.Size(100, 26);
             this.txtNota3.TabIndex = 5;
+            this.txtNota3.TabStop = false;
             // 
             // label6
             // 
@@ -263,6 +265,7 @@
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(100, 26);
             this.txtNota2.TabIndex = 3;
+            this.txtNota2.TabStop = false;
             // 
             // label4
             // 
@@ -281,6 +284,7 @@
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(100, 26);
             this.txtNota1.TabIndex = 1;
+            this.txtNota1.TabStop = false;
             // 
             // label3
             // 
@@ -316,7 +320,9 @@
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(373, 26);
             this.txtCorreo.TabIndex = 5;
+            this.txtCorreo.TabStop = false;
             this.txtCorreo.Click += new System.EventHandler(this.txtCorreo_Click);
+            this.txtCorreo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtCorreo_MouseDown);
             // 
             // label2
             // 
@@ -335,7 +341,9 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(373, 26);
             this.txtNombre.TabIndex = 3;
+            this.txtNombre.TabStop = false;
             this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
+            this.txtNombre.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtNombre_MouseDown);
             // 
             // label1
             // 
@@ -354,8 +362,10 @@
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(166, 26);
             this.txtCodigo.TabIndex = 1;
+            this.txtCodigo.TabStop = false;
             this.txtCodigo.Click += new System.EventHandler(this.txtCodigo_Click);
             this.txtCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigo_KeyPress);
+            this.txtCodigo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtCodigo_MouseDown);
             // 
             // label5
             // 
@@ -381,7 +391,7 @@
             // 
             dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.ControlDark;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -390,7 +400,7 @@
             this.dtgvTablaDtos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -402,7 +412,7 @@
             this.dtgvTablaDtos.ReadOnly = true;
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.ControlDark;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -413,6 +423,7 @@
             this.dtgvTablaDtos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgvTablaDtos.Size = new System.Drawing.Size(691, 261);
             this.dtgvTablaDtos.TabIndex = 0;
+            this.dtgvTablaDtos.TabStop = false;
             // 
             // errorValidacion
             // 
@@ -433,7 +444,8 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmActividad04";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Vista de diseño";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
